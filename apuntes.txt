@@ -1,0 +1,5 @@
+Packages
+Terminal -> Nuget pestaña -> 
+busco y selecciono, validar version, set [+] en el proyecto donde se instalará 
+Microsoft.EntityFrameworkCore.SqlSever -> Infrastructure
+Microsoft.EntityFrameworkCore.Design -> API

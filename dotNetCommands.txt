@@ -19,3 +19,4 @@ en Infrastructure -> dotnet add reference ../Core
 dotnet restore
 dotnet build
 dotnet run
+dotnet watch
