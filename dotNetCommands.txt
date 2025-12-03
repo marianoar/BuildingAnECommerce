@@ -1,0 +1,21 @@
+dotnet -- info
+dotnet -h
+
+dotnet new sln
+dotnet new webapi -o API -controllers
+dotnet new classlib -o Core
+dotnet new classlib -o Infrastructure
+
+dotnet sln add API
+dotnet sln add Core
+dotnet sln add Infrastructure
+
+dotnet sln list -> verifico
+
+-- agrego referencias entre proyectos --
+en API folder -> dotnet add reference ../Infrastructure
+en Infrastructure -> dotnet add reference ../Core
+
+dotnet restore
+dotnet build
+dotnet run
